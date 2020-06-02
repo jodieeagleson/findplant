@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "yarn clear-dist && yarn copy-html-css && nodemon",
         "clear-dist": "rm -rf dist",
-        "copy-html-css": "copyfiles -u 1 src/**/*.html src/**/*.css dist"
+        "copy-html-css": "copyfiles -u 1 src/**/*.png src/**/*.html src/**/*.css dist"
     },
     "author": "jodieee",
     "license": "ISC",
