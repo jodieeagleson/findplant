@@ -1,6 +1,6 @@
 {
     "verbose": true,
     "watch": ["src"],
-    "ext": ".ts",
+    "ext": ".*s",
     "exec": "tsc && node ./dist/server/index.js"
 }

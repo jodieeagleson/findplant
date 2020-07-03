@@ -7,6 +7,7 @@
         <title>find plant</title>
         <meta name="description" content="The HTML5 Herald" />
         <meta name="author" content="SitePoint" />
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="index.js"></script>
         <link rel="stylesheet" href="index.css" />
     </head>
@@ -15,8 +16,11 @@
         <h1>find plant</h1>
         <br />
         <br />
-        <input placeholder="plant name" />
-        <button onclick="">go</button>
+        <input placeholder="plant name" id="plant-input" />
+        <button onclick="buttonAlert()">go</button>
+        <div id="plantfactscontainer"></div>
+        <button onclick="showImage()">take a peek</button>
+
         <!-- <footer><div>about</div><div>faq</div><div>contact</div></footer> -->
     </body>
 </html>
